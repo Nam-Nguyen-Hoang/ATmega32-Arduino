@@ -4,20 +4,6 @@
 #	Project:	ATmega32 for Arduino IDE
 #	Version:	v1.2
 
-# Copyright (c) 2015, Eric Conner Apps.
-
-# Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
-# documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
-# the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
-# to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-# The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO 
-# THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS 
-# OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR 
-# OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
 ##############################################################
 
 mega32-1.name=ATmega32-1mhz
@@ -26,6 +12,7 @@ mega32-1.build.f_cpu=1000000L
 mega32-1.build.core=arduino:arduino
 mega32-1.build.variant=mega32
 
+mega32-1.upload.tool=avrdude
 mega32-1.upload.maximum_size=32000
 
 mega32-1.bootloader.low_fuses=0xE1
@@ -40,6 +27,7 @@ mega32-8.build.f_cpu=8000000L
 mega32-8.build.core=arduino:arduino
 mega32-8.build.variant=mega32
 
+mega32-8.upload.tool=avrdude
 mega32-8.upload.maximum_size=32000
 
 mega32-8.bootloader.low_fuses=0xE4
@@ -54,6 +42,7 @@ mega32-16.build.f_cpu=16000000L
 mega32-16.build.core=arduino:arduino
 mega32-16.build.variant=mega32
 
+mega32-16.upload.tool=avrdude
 mega32-16.upload.maximum_size=32000
 
 mega32-16.bootloader.low_fuses=0xEF
