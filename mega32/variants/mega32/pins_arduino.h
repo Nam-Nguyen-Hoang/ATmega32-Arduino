@@ -27,6 +27,9 @@
 
 #include <avr/pgmspace.h>
 
+static const uint8_t SDA	= 17;
+static const uint8_t SCL	= 16;
+
 #ifdef ARDUINO_MAIN
 
 #define PA 1
