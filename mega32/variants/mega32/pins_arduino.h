@@ -30,6 +30,11 @@
 static const uint8_t SDA	= 17;
 static const uint8_t SCL	= 16;
 
+static const uint8_t MISO	= 7;
+static const uint8_t MOSI	= 6;
+static const uint8_t SCK	= 8;
+static const uint8_t SS		= 5;
+
 #ifdef ARDUINO_MAIN
 
 #define PA 1
