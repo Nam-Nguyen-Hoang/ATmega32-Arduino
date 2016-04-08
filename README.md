@@ -1,15 +1,16 @@
 ATmega32-Arduino
 ================
 
-ATmega32 for Arduino IDE v1.1
+ATmega32 for Arduino IDE v1.3
+Tested with Arduino v1.6.7
 
 ********************************
  Installing ATmega32
 ********************************
 0. Close the Arduino IDE (all instances).
-1. Copy the Mega32 folder to the Sketchbook \hardware folder. If one does not exist create it.
+1. Clone repository into the Sketchbook \hardware folder. If one does not exist create it.
 2. Start the Arduino IDE.
-3. Select any ATmega32-1mhz or ATmega32-8mhz board from the Tools->Board menu.
+3. Select any ATmega32 board from the Tools->Board menu.
 6. Now, you can compile any standard project.
 
 ********************************

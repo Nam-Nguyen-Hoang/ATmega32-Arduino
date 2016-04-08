@@ -3,7 +3,7 @@
 	Email:		Eric@EricConnerApps.com
 	Date:		06-10-2013
 	Project:	ATmega32 for Arduino IDE
-	Version:	v1.2
+	Version:	v1.3
 */
 
 /*
